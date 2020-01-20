@@ -1,0 +1,41 @@
+.nav-h1 {
+  display: none;
+}
+
+.nav-menu {
+  float: right;
+}
+
+.nav-menu li {
+  float: left;
+}
+
+.nav-menu li a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+
+.search {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+
+.search-input {
+  text-align: center;
+  background-color: #fafafa;
+  color: #555;
+  border: none;
+  line-height: center;
+  margin: 0;
+  padding: 0;
+}
+
+.search-input:hover {
+  color: #000;
+  border-bottom: 1px solid #333;
+  transition: border-bottom 0.3s;
+}

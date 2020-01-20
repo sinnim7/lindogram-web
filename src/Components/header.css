@@ -1,0 +1,88 @@
+.header {
+  color: black;
+  padding: 20px 0;
+  position: relative;
+}
+
+.header-logo {
+  float: left;
+  background-image: url(/images/logo1.png);
+  width: 68px;
+  height: 40px;
+  /*=> 🔸해더 로고는 a태그. 그래서 inline은 폭·넓이 지정 안됨.
+  근데 float를 주면 display가 block가 됨!*/
+  background-size: cover;
+  /*=> 🔸로고img 경우 화면 깨짐 방지를 위해 원본보다 2배 크게 준비해
+  css에서 절반 크기로 줄임=> 다운 샘플링*/
+  text-indent: -9999px;
+  /*=> text 안 보이게 처리*/
+  display: block;
+  /*=> 반응형 시 float:none 탓에 로고의 폭넓이 사라짐.
+  display가 inline으로 돌아와서. 그래서 display에 block 추가.*/
+}
+
+.nav-h1 {
+  display: none;
+}
+
+.nav-menu {
+  float: right;
+}
+
+.nav-menu li {
+  float: left;
+  /*원래 자식 li가 flaot되면 부모 해더의 높이가 0이 됨.*/
+  /*하지만 부모 해더메뉴도 이미 float라서 문제 안 생김*/
+  /*border-left: 1px solid;*/ /*해더 color 색상*/
+}
+
+.nav-menu li a {
+  display: block;
+  height: 40px;
+  /*로고 이미지 높이와 같게. 하지만 a태그는 inline.
+    그래서 display를 block으로 설정*/
+  line-height: 40px;
+  /*한 줄 높이를 40px로 해주면
+    텍스트 위아래로 공간이 생겨 세로 가운데 정렬 효과 발생*/
+  padding: 0 10px;
+}
+
+.search {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+
+.search-input {
+  text-align: center;
+  background-color: #fafafa;
+  color: #555;
+  border: none;
+  /* border-bottom: 1px solid #555; */
+  line-height: center;
+  margin: 0;
+  padding: 0;
+}
+
+.search-input:hover {
+  color: #000;
+  border-bottom: 1px solid #333;
+  transition: border-bottom 0.3s;
+}
+
+/* ✅Mediaqueries */
+
+/* Pc */
+@media (min-width: 769px) {
+  .l_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #ddd;
+    height: 45px;
+    z-index: 900;
+    background-color: rgba(247, 247, 247, 0.89);
+  }
+}
