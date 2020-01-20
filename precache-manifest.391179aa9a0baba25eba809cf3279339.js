@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "efc3e738172c4263cd40769f8e26c39d",
+    "revision": "6e2083b440154973534e559c032e299d",
     "url": "/lindogram-web/index.html"
   },
   {
