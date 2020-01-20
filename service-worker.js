@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lindogram-web/precache-manifest.391179aa9a0baba25eba809cf3279339.js"
+  "/lindogram-web/precache-manifest.7832386da2f931efdda3f79e33cacb38.js"
 );
 
 self.addEventListener('message', (event) => {
