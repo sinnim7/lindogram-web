@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/lindogram-web/static/css/main.41326b41.chunk.css",
-    "main.js": "/lindogram-web/static/js/main.3e15e553.chunk.js",
-    "main.js.map": "/lindogram-web/static/js/main.3e15e553.chunk.js.map",
+    "main.css": "/lindogram-web/static/css/main.0c8c15aa.chunk.css",
+    "main.js": "/lindogram-web/static/js/main.443899cc.chunk.js",
+    "main.js.map": "/lindogram-web/static/js/main.443899cc.chunk.js.map",
     "runtime-main.js": "/lindogram-web/static/js/runtime-main.05d79aa1.js",
     "runtime-main.js.map": "/lindogram-web/static/js/runtime-main.05d79aa1.js.map",
-    "static/js/2.5c758cf2.chunk.js": "/lindogram-web/static/js/2.5c758cf2.chunk.js",
-    "static/js/2.5c758cf2.chunk.js.map": "/lindogram-web/static/js/2.5c758cf2.chunk.js.map",
+    "static/js/2.b0c42075.chunk.js": "/lindogram-web/static/js/2.b0c42075.chunk.js",
+    "static/js/2.b0c42075.chunk.js.map": "/lindogram-web/static/js/2.b0c42075.chunk.js.map",
     "index.html": "/lindogram-web/index.html",
-    "precache-manifest.a0d598fcfa7da097f1e9666b6269814a.js": "/lindogram-web/precache-manifest.a0d598fcfa7da097f1e9666b6269814a.js",
+    "precache-manifest.0da1cd8a59add479996e873afe7e6365.js": "/lindogram-web/precache-manifest.0da1cd8a59add479996e873afe7e6365.js",
     "service-worker.js": "/lindogram-web/service-worker.js",
-    "static/css/main.41326b41.chunk.css.map": "/lindogram-web/static/css/main.41326b41.chunk.css.map",
-    "static/js/2.5c758cf2.chunk.js.LICENSE": "/lindogram-web/static/js/2.5c758cf2.chunk.js.LICENSE",
+    "static/css/main.0c8c15aa.chunk.css.map": "/lindogram-web/static/css/main.0c8c15aa.chunk.css.map",
+    "static/js/2.b0c42075.chunk.js.LICENSE": "/lindogram-web/static/js/2.b0c42075.chunk.js.LICENSE",
     "static/media/img01.jpg": "/lindogram-web/static/media/img01.926bc1f2.jpg",
-    "static/media/img02.jpg": "/lindogram-web/static/media/img02.91db8089.jpg",
+    "static/media/postTable.css": "/lindogram-web/static/media/img02.91db8089.jpg",
     "static/media/img03.jpg": "/lindogram-web/static/media/img03.2f9a0849.jpg",
     "static/media/loading.gif": "/lindogram-web/static/media/loading.90a378cd.gif",
     "static/media/me.jpg": "/lindogram-web/static/media/me.d35238da.jpg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.05d79aa1.js",
-    "static/js/2.5c758cf2.chunk.js",
-    "static/css/main.41326b41.chunk.css",
-    "static/js/main.3e15e553.chunk.js"
+    "static/js/2.b0c42075.chunk.js",
+    "static/css/main.0c8c15aa.chunk.css",
+    "static/js/main.443899cc.chunk.js"
   ]
 }

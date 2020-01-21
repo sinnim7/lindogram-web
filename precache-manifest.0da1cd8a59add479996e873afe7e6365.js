@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "392d7f4f6ce851a05e8e79b468cdf7f3",
+    "revision": "9dfe64a1a8bc9c19738ba7a381cba398",
     "url": "/lindogram-web/index.html"
   },
   {
-    "revision": "5c8cd90506c182471c1a",
-    "url": "/lindogram-web/static/css/main.41326b41.chunk.css"
+    "revision": "cca330643b7e43ae2881",
+    "url": "/lindogram-web/static/css/main.0c8c15aa.chunk.css"
   },
   {
-    "revision": "010c58f9f94f474182a2",
-    "url": "/lindogram-web/static/js/2.5c758cf2.chunk.js"
+    "revision": "bf212beddcfd698f0ed6",
+    "url": "/lindogram-web/static/js/2.b0c42075.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/lindogram-web/static/js/2.5c758cf2.chunk.js.LICENSE"
+    "url": "/lindogram-web/static/js/2.b0c42075.chunk.js.LICENSE"
   },
   {
-    "revision": "5c8cd90506c182471c1a",
-    "url": "/lindogram-web/static/js/main.3e15e553.chunk.js"
+    "revision": "cca330643b7e43ae2881",
+    "url": "/lindogram-web/static/js/main.443899cc.chunk.js"
   },
   {
     "revision": "fe06340669fa30f6730f",
