@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1738af0b98751125bc25f90940377e5",
+    "revision": "392d7f4f6ce851a05e8e79b468cdf7f3",
     "url": "/lindogram-web/index.html"
   },
   {
-    "revision": "c50f7baa2cef6556cf0e",
+    "revision": "5c8cd90506c182471c1a",
     "url": "/lindogram-web/static/css/main.41326b41.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lindogram-web/static/js/2.5c758cf2.chunk.js.LICENSE"
   },
   {
-    "revision": "c50f7baa2cef6556cf0e",
-    "url": "/lindogram-web/static/js/main.b4e0576a.chunk.js"
+    "revision": "5c8cd90506c182471c1a",
+    "url": "/lindogram-web/static/js/main.3e15e553.chunk.js"
   },
   {
     "revision": "fe06340669fa30f6730f",

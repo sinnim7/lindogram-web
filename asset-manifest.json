@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lindogram-web/static/css/main.41326b41.chunk.css",
-    "main.js": "/lindogram-web/static/js/main.b4e0576a.chunk.js",
-    "main.js.map": "/lindogram-web/static/js/main.b4e0576a.chunk.js.map",
+    "main.js": "/lindogram-web/static/js/main.3e15e553.chunk.js",
+    "main.js.map": "/lindogram-web/static/js/main.3e15e553.chunk.js.map",
     "runtime-main.js": "/lindogram-web/static/js/runtime-main.05d79aa1.js",
     "runtime-main.js.map": "/lindogram-web/static/js/runtime-main.05d79aa1.js.map",
     "static/js/2.5c758cf2.chunk.js": "/lindogram-web/static/js/2.5c758cf2.chunk.js",
     "static/js/2.5c758cf2.chunk.js.map": "/lindogram-web/static/js/2.5c758cf2.chunk.js.map",
     "index.html": "/lindogram-web/index.html",
-    "precache-manifest.2f66bb4a3fdc150bb180250dbccd6b12.js": "/lindogram-web/precache-manifest.2f66bb4a3fdc150bb180250dbccd6b12.js",
+    "precache-manifest.a0d598fcfa7da097f1e9666b6269814a.js": "/lindogram-web/precache-manifest.a0d598fcfa7da097f1e9666b6269814a.js",
     "service-worker.js": "/lindogram-web/service-worker.js",
     "static/css/main.41326b41.chunk.css.map": "/lindogram-web/static/css/main.41326b41.chunk.css.map",
     "static/js/2.5c758cf2.chunk.js.LICENSE": "/lindogram-web/static/js/2.5c758cf2.chunk.js.LICENSE",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.05d79aa1.js",
     "static/js/2.5c758cf2.chunk.js",
     "static/css/main.41326b41.chunk.css",
-    "static/js/main.b4e0576a.chunk.js"
+    "static/js/main.3e15e553.chunk.js"
   ]
 }
