@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import PostTable from "./PostTable";
 import AddPostForm from "../forms/AddPostForm";
 import EditPostForm from "../forms/EditPostForm";
+import user from "../images/user.png";
+import img01 from "../images/img01.jpg";
+import img02 from "../images/img02.jpg";
+import img03 from "../images/img03.jpg";
 
 const Post = () => {
   let itemsArray = localStorage.getItem("items")
@@ -9,24 +13,30 @@ const Post = () => {
     : [
         {
           id: 1,
-          useravatar: "/images/user.png",
+          useravatar: { user },
           contents: "페루 쿠스코 아르마스 광장(Plaza de Armas) ",
           posted: `${new Date().getMinutes()}`,
-          images: "/images/img01.jpg"
+          images: img01,
+          addFollow: false,
+          addLike: false
         },
         {
           id: 2,
-          useravatar: "/images/user.png",
+          useravatar: "/..images/user.png",
           contents: "마추픽추, 그 큰 돌을 어떻게 옮겼을까?",
           posted: `${new Date().getMinutes()}`,
-          images: "/images/img02.jpg"
+          images: img02,
+          addFollow: false,
+          addLike: false
         },
         {
           id: 3,
-          useravatar: "/images/user.png",
+          useravatar: "../images/user.png",
           contents: "브라질 리우 Praia de Copacabana",
           posted: `${new Date().getMinutes()}`,
-          images: "/images/img03.jpg"
+          images: img03,
+          addFollow: false,
+          addLike: false
         }
       ];
 
@@ -82,7 +92,6 @@ const Post = () => {
   return (
     <div>
       <section>
-        {/* <h1>What's happening?</h1> */}
         <div>
           {editing ? (
             <EditPostForm

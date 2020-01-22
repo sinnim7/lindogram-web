@@ -128,16 +128,17 @@
   font-weight: 700;
 }
 
-.feed-comment {
-  display: none;
+/* feed-comment-form */
+.feed-comment-form {
+  display: block;
   margin-top: 4px;
 }
 
-.feed-comment.active {
-  display: block;
+.isHidden {
+  display: none;
 }
 
-.feed-comment textarea {
+.feed-comment-form textarea {
   width: 100%;
   height: 64px;
   padding: 10px 12px;
@@ -150,16 +151,16 @@
   transition: border-color 250ms ease-in-out;
 }
 
-.feed-comment textarea:focus {
+.feed-comment-form textarea:focus {
   outline: none;
   border-color: #b6bec8;
 }
 
-.feed-comment textarea::placeholder {
+.feed-comment-form textarea::placeholder {
   color: #b6bec8;
 }
 
-.feed-comment button {
+.feed-comment-form button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -172,6 +173,14 @@
   color: #fff;
 }
 
-.feed-comment button:hover {
+.feed-comment-form button:hover {
   background-color: #006ffe;
+}
+
+/* follow */
+
+.feed-user-profile button.following {
+  background-color: #006ffe;
+  border-color: #006ffe;
+  color: #fff;
 }

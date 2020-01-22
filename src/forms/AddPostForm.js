@@ -1,12 +1,19 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import user from "../images/user.png";
+import loading from "../images/loading.gif";
+import uploadIcon from "../images/uploadIcon.png";
 
 const AddPostFormDiv = styled.div`
+  box-sizing: border-box;
   border: 1px solid #ddd;
-  width: 520px;
-  height: 127px;
+  width: 100%;
+  max-width: 550px;
   margin: 50px auto;
   padding: 30px;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  border-bottom: 1px solid #ddd;
 `;
 
 const Textarea = styled.textarea`
@@ -21,6 +28,7 @@ const Textarea = styled.textarea`
   outline: none;
   line-height: 1.5;
   padding: 10px 0;
+  background-color: #fafafa;
 `;
 
 const Useravatar = styled.img`
@@ -64,10 +72,11 @@ const AddPostForm = props => {
   const initialFormState = {
     id: null,
     name: "",
-    useravatar: "/images/user.png",
+    useravatar: user,
     contents: "",
     posted: "",
-    images: "/images/loding.gif"
+    images: loading,
+    follows: "Follow"
   };
 
   const [post, setPost] = useState(initialFormState);
@@ -94,9 +103,9 @@ const AddPostForm = props => {
     }
   };
 
-  const ScrollDown = () => {
-    window.scrollBy(0, 1055000000);
-  };
+  // const ScrollDown = () => {
+  //   window.scrollBy(0, 1055000000);
+  // };
   return (
     <AddPostFormDiv>
       <form
@@ -139,13 +148,11 @@ const AddPostForm = props => {
                 height: "32px",
                 width: "15px"
               }}
-              src="/images/uploadIcon.png"
+              src={uploadIcon}
               alt="lindo"
             />
           </Uploadbtn>
-          <FormSubmitBtn onClick={ScrollDown} type="submit">
-            Submit
-          </FormSubmitBtn>
+          <FormSubmitBtn type="submit">Submit</FormSubmitBtn>
         </FormFooter>
       </form>
     </AddPostFormDiv>

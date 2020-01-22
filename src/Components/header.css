@@ -6,7 +6,7 @@
 
 .header-logo {
   float: left;
-  background-image: url(/images/logo1.png);
+  background-image: url(../images/logo1.png);
   width: 68px;
   height: 40px;
   /*=> 🔸해더 로고는 a태그. 그래서 inline은 폭·넓이 지정 안됨.
@@ -83,6 +83,6 @@
     border-bottom: 1px solid #ddd;
     height: 45px;
     z-index: 900;
-    background-color: rgba(247, 247, 247, 0.89);
+    background-color: #ffffff;
   }
 }
